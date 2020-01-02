@@ -1,11 +1,21 @@
 ![version 1](https://img.shields.io/badge/version-1.0-blue.svg?longCache=true)
 
-![Brutalist Pelican Theme](https://brutalistpelican.com/images/site-cover.jpg "Brutalist Pelican Theme") 
+![Brutalist Pelican Theme](https://brutalistpelican.com/images/site-cover.jpg "Brutalist Pelican Theme")
 
-View the demo version at [https://brutalistpelican.com](https://brutalistpelican.com).
 
-## Background and Inspiration 
-When I decided to get back into blogging, I knew that I wanted a site that was super simple and readable. There are many great Pelican themes out there but I couldn't quite find what I was looking for. After reading David Bryant Copeland's [Brutalist Web Design](https://brutalist-web.design/) a few weeks ago, I was inspired to try and apply those design principles to a Pelican theme. The goal of this theme is to be feature-rich while also accessible and fast. This release is just 1.0. I'll be adding more features as I shake off the front-end coding rust. 
+## Background and Inspiration
+Brutalist pelican theme modified by me (@avolkov) for my personal website https://flamy.ca
+
+I made the following changes:
+
+* article description text has more contrast
+* content section displays more content horizontally on a 1080p screen
+* borders are visible around the tables
+
+Original theme can be found here -- https://github.com/mc-buckets/brutalist
+
+
+When I decided to get back into blogging, I knew that I wanted a site that was super simple and readable. There are many great Pelican themes out there but I couldn't quite find what I was looking for. After reading David Bryant Copeland's [Brutalist Web Design](https://brutalist-web.design/) a few weeks ago, I was inspired to try and apply those design principles to a Pelican theme. The goal of this theme is to be feature-rich while also accessible and fast. This release is just 1.0. I'll be adding more features as I shake off the front-end coding rust.
 
 ## Features
 * Clean, readable, accessible, and fast theme
@@ -61,7 +71,7 @@ TWITTER_USERNAME = '@mcman_s'
 ## Attribution is appreciated but totally fine to turn off!
 ATTRIBUTION = True
 ## Add a link to the tags page to the menu
-## Other links can be added following the same tuple pattern 
+## Other links can be added following the same tuple pattern
 MENUITEMS = [('tags', '/tags')]
 ## Social icons for footer
 ## Set these to whatever your unique public URL is for that platform
@@ -111,9 +121,9 @@ SITEMAP = {
 Some design and tooling choices I made while building this theme. Feedback welcome.
 
 * I kept the site in a single column for now. Research shows that the optimal character count is 66 and the single column design usually lands between 50-75.
-* I chose the Lato font face and only 3 font weights because I like the way it looks. I have received feedback that it may be too hard to read so I may add some weights or change it. Instead of using the google font API urls, each font weight was translated to its raw Data URI and packaged with the theme to improve loading performance. 
+* I chose the Lato font face and only 3 font weights because I like the way it looks. I have received feedback that it may be too hard to read so I may add some weights or change it. Instead of using the google font API urls, each font weight was translated to its raw Data URI and packaged with the theme to improve loading performance.
 * Same thing for the footer icons. I used one of my favorite tools, [Grumpicon](http://www.grumpicon.com/), to properly package the fonts. I did not introduce the entire Grumpicon JS toolchain since it seems complex and I really just needed a handful of icons.
-* I designed in SASS instead of CSS, mostly for the same reasons I [outlined a few years ago](https://mamcmanus.com/2016/01/14/switching-from-css-to-sass/). 
+* I designed in SASS instead of CSS, mostly for the same reasons I [outlined a few years ago](https://mamcmanus.com/2016/01/14/switching-from-css-to-sass/).
 * For date and time display I am using [moment.js](https://momentjs.com/). I've been using this script for years because it is easy to get the dates and times looking exactly how you want.
 * I attempted to get the tag design as close to Stack Overflow as possible.
 

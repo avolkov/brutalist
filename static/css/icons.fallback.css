@@ -1,4 +1,10 @@
 
+.icon-mastodon {
+    background-image: url('png/mastodon.png');
+    background-repeat: no-repeat;
+}
+
+
 .icon-strava {
 	background-image: url('png/strava.png');
 	background-repeat: no-repeat;

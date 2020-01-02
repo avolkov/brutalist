@@ -134,6 +134,9 @@
                         {% if UNTAPPD %}
                         <a href="{{ UNTAPPD }}" target="_blank"><div class="icon-untappd icon"></div></a>
                         {% endif %}
+                        {% if MASTODON %}
+                        <a href="{{ MASTODON }}" target="_blank"><div class="icon-mastodon icon"></div></a>
+                        {% endif %}
                     </div>
                     <p>© <script>document.write(moment().format('YYYY'));</script> {{ AUTHOR }}</p>
                     {% if ATTRIBUTION %}

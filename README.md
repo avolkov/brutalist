@@ -1,8 +1,17 @@
 ![version 1](https://img.shields.io/badge/version-1.0-blue.svg?longCache=true)
 
-![Brutalist Pelican Theme](https://brutalistpelican.com/images/site-cover.jpg "Brutalist Pelican Theme")
 
-View the demo version at [https://brutalistpelican.com](https://brutalistpelican.com).
+Brutalist pelican theme modified by me (@avolkov) for my personal website https://flamy.ca
+
+I made the following changes:
+
+* article description text has more contrast
+* content section displays more content horizontally
+* borders are visible around the tables
+* Added MASTODON to the list of social media reference
+* Removed black text styling for links everywhere
+
+Original theme can be found here -- https://github.com/mc-buckets/brutalist
 
 ## Background and Inspiration
 When I decided to get back into blogging, I knew that I wanted a site that was super simple and readable. There are many great Pelican themes out there but I couldn't quite find what I was looking for. After reading David Bryant Copeland's [Brutalist Web Design](https://brutalist-web.design/) a few weeks ago, I was inspired to try and apply those design principles to a Pelican theme. The goal of this theme is to be feature-rich while also accessible and fast. This release is just 1.0. I'll be adding more features as I shake off the front-end coding rust.
